@@ -1,28 +1,38 @@
 {
-  "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "backpack": ["./src/index"]
-    },
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "esModuleInterop": true,
-    "importsNotUsedAsValues": "error",
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "react",
-    "lib": ["esnext"],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noImplicitUseStrict": false,
-    "noStrictGenericChecks": false,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "esnext"
-  }
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"backpack": ["./src/index"],
+			"common/*": ["./src/components/common/*"],
+			"pages/*": ["./src/components/pages/*"],
+			"partials/*": ["./src/components/partials/*"],
+			"contexts/*": ["./src/contexts/*"],
+			"navigators/*": ["./src/navigators/*"],
+			"hooks/*": ["./src/hooks/*"],
+			"models/*": ["./src/models/*"],
+			"styles/*": ["./src/styles/*"],
+			"types/*": ["./src/types/*"],
+			"utils/*": ["./src/utils/*"],
+			"*": ["./src/*"]
+		},
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react",
+		"lib": ["esnext"],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		"noImplicitUseStrict": false,
+		"noStrictGenericChecks": false,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "esnext"
+	}
 }

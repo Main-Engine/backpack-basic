@@ -1,0 +1,7 @@
+metro.config.js
+plopfile.mjs
+*.app
+.eslintrc.cjs
+/backend
+/dist
+/node_modules

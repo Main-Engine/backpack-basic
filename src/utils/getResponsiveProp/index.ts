@@ -1,0 +1,1 @@
+export { getResponsiveProp } from './getResponsiveProp'

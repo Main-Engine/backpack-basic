@@ -1,0 +1,37 @@
+{
+  "useTabs": true,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "printWidth": 100,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^pages/(.*)$",
+    "^partials/(.*)$",
+    "^common/(.*)$",
+    "^hooks/(.*)$",
+    "^models/(.*)$",
+    "^utils/(.*)$",
+    "^contexts/(.*)$",
+    "^assets/(.*)$",
+    "^types/(.*)$",
+    "^(./)",
+    "^(../)"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "overrides": [
+    {
+      "files": [
+        "**/package.json",
+        "**/locales /**/*.json",
+        ".github /**/*.yml"
+      ],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
