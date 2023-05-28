@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"baseUrl": "./",
 		"paths": {
-			"backpack": ["./src/index"],
+			"@mainengine/backpack": ["./src/index"],
 			"common/*": ["./src/components/common/*"],
 			"pages/*": ["./src/components/pages/*"],
 			"partials/*": ["./src/components/partials/*"],

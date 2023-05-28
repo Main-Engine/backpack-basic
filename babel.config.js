@@ -8,7 +8,7 @@ module.exports = (api) => {
 				{
 					root: ['./src'],
 					alias: {
-						backpack: './src',
+						'@mainengine/backpack': './src',
 						common: './src/components/common',
 						partials: './src/components/partials',
 						pages: './src/components/pages',

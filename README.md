@@ -5,13 +5,13 @@ A set of tools used alongside Expo projects
 ## Installation
 
 ```sh
-npm install backpack
+npm install @mainengine/backpack
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'backpack';
+import { multiply } from '@mainengine/backpack';
 
 // ...
 
