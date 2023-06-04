@@ -6,13 +6,15 @@ module.exports = (api) => {
 			[
 				'module-resolver',
 				{
-					root: ['./src'],
+					root: ['./src/'],
 					alias: {
 						'mainengine-backpack': './src',
 						common: './src/components/common',
 						partials: './src/components/partials',
 						pages: './src/components/pages',
+						models: './src/models',
 						utils: './src/utils',
+						hooks: './src/hooks',
 						navigators: './src/navigators',
 						constants: './src/utils/constants',
 						contexts: './src/contexts',

@@ -1,4 +1,4 @@
-import { color, font, image, radius, size, space } from './template'
+import { color, font, radius, size, space } from './template'
 import { theme } from './theme'
 
 export type Theme = ReturnType<typeof theme>
@@ -25,9 +25,6 @@ export type Size = size.Size
 export type Space = space.Space
 export type Shadow = space.Space
 export type Radius = radius.Radis
-export type ImageName = image.ImageName
-export type ImageAspect = image.ImageAspect
-export type ImageColors = image.ImageColors
 
 export type TextFont = font.TextFontFamily
 export type IconFont = font.IconFontFamily

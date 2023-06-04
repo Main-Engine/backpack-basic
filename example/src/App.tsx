@@ -1,4 +1,4 @@
-import { ThemeProvider, multiply } from 'mainengine-backpack'
+import { PageProvider, multiply } from 'mainengine-backpack'
 import * as React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
@@ -10,11 +10,11 @@ export default function App() {
 	}, [])
 
 	return (
-		<ThemeProvider>
+		<PageProvider>
 			<View style={styles.container}>
 				<Text>Result: {result}</Text>
 			</View>
-		</ThemeProvider>
+		</PageProvider>
 	)
 }
 

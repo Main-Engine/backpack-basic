@@ -1,19 +1,19 @@
 {
 	"compilerOptions": {
-		"baseUrl": "./",
+		"baseUrl": ".",
 		"paths": {
-			"mainengine-backpack": ["./src/index"],
-			"common/*": ["./src/components/common/*"],
-			"pages/*": ["./src/components/pages/*"],
-			"partials/*": ["./src/components/partials/*"],
-			"contexts/*": ["./src/contexts/*"],
-			"navigators/*": ["./src/navigators/*"],
-			"hooks/*": ["./src/hooks/*"],
-			"models/*": ["./src/models/*"],
-			"styles/*": ["./src/styles/*"],
-			"types/*": ["./src/types/*"],
-			"utils/*": ["./src/utils/*"],
-			"*": ["./src/*"]
+			"mainengine-backpack": ["src/index"],
+			"common/*": ["src/components/common/*"],
+			"pages/*": ["src/components/pages/*"],
+			"partials/*": ["src/components/partials/*"],
+			"contexts/*": ["src/contexts/*"],
+			"navigators/*": ["src/navigators/*"],
+			"hooks/*": ["src/hooks/*"],
+			"models/*": ["src/models/*"],
+			"styles/*": ["src/styles/*"],
+			"types/*": ["src/types/*"],
+			"utils/*": ["src/utils/*"],
+			"*": ["src/*"]
 		},
 		"allowUnreachableCode": false,
 		"allowUnusedLabels": false,
